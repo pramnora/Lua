@@ -20,6 +20,17 @@ Reference manual - Lua 5.4
 
 > print(1+2)
 
+### Variables
+
+> greeting = "Hello, world!"  
+> num = 3.14  
+> print(greeting)  
+> print(num)  
+> --output...  
+> --Hello, world!  
+> --3.14  
+
+**NOTE**: The double hypen...is how you create a single Lua comment.  
 
 ## Videos
 
