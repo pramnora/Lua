@@ -3,13 +3,6 @@ Lua code
 
 -----
 
-## Links
-
-Lua main site...  
-- http://www.lua.org/  
-Reference manual - Lua 5.4   
--http://www.lua.org/manual/5.4/  
-
 ## Simple programs...
 
 ### Hello, world!
@@ -41,6 +34,15 @@ Reference manual - Lua 5.4
 > --3.14 number  
  
 **NOTE**: Escape characters are: "\t" for tab/and, "\n" for new line.     
+
+-----
+
+## Links
+
+Lua main site...  
+- http://www.lua.org/  
+Reference manual - Lua 5.4   
+-http://www.lua.org/manual/5.4/  
 
 ## Videos
 
