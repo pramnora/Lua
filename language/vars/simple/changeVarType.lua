@@ -6,7 +6,7 @@ print(varName)
 varName= "Humpty Dumpty"
 print(varName)
 
--- integer/sum expression...
+-- integer/calculated as being the sum total value of a sum expression...
 varName=1+2
 print(varName)
 
