@@ -59,17 +59,6 @@ Here are some simple programs...; which are all created by me just in order to g
 
 ## Maths
 
-### Add 2 numbers
-
-#### Using numeric literals
-
-> print(1+2) --3  
-
-#### Using numeric variables
-
-> num1, num2 = 1,2 -- multiple assignments being done all on one same line    
-> print(num1+num2) -- 3  
-
 ### Maths operators...
 
 > --variable declaration...  
@@ -81,9 +70,18 @@ Here are some simple programs...; which are all created by me just in order to g
 > print(num/num)  --1  
 > print(num^num)  --27   
 
------
+### Add 2 numbers
 
-### functions
+#### Using numeric literals
+
+> print(1+2) --3  
+
+#### Using numeric variables
+
+> num1, num2 = 1,2 -- multiple assignments being done all on one same line    
+> print(num1+num2) -- 3  
+
+#### Using functions
 
 > function add(n1,n2) -- function header, with 2 parameter arguments   
 >  print(1+2)         -- function calculate sum expression/and, then, print out sum total    
