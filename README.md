@@ -28,11 +28,11 @@ Lua code
 > print(greeting)  --Hello, world!  
 > print(num)       --3.14   
 
-### Variable types
+### Variable types/Variable name re-use
 
 > varName = "Paul"  
-> varName = 3.14  
 > io.write(varName,"\t",type(varName),"\n")  --Paul string  
+> varName = 3.14  
 > io.write(varName,"\t",type(varName),"\n")  --3.14 number  
  
 **NOTE**: Escape characters are: "\t" for tab/and, "\n" for new line.     
