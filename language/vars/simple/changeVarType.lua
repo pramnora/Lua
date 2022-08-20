@@ -1,8 +1,12 @@
--- word..
+-- string: single char...
+varName = "a"
+print(varName)
+
+-- string: single word...
 varName = "Humpty "
 print(varName)
 
--- multiple words...
+-- string; multiple words...
 varName= "Humpty Dumpty"
 print(varName)
 
