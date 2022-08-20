@@ -10,6 +10,12 @@ Lua main site...
 Reference manual - Lua 5.4   
 -http://www.lua.org/manual/5.4/  
 
+## Simple programs...
+
+### Hello, world!
+
+>> print("Hello, world!")  
+
 
 ## Videos
 
