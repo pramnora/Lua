@@ -24,8 +24,8 @@ Here are some simple programs...; where are all created by me just in order to g
 > print([["This is   
 > another multi-line way   
 > to print,  
-> Hello, world!"]])  
-> --output...  
+> Hello, world!"]])   
+> --code output...  
 > --This is  
 > --another multi-line way  
 > -- to print,  
