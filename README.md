@@ -31,13 +31,6 @@ Here are some simple programs...; which are all created by me just in order to g
 > -- to print,  
 > --Hello, world!  
 
-### Add 2 numbers
-
-> print(1+2) --3  
-
-> num1, num2 = 1,2 -- multiple assignments being done all on one same line    
-> print(num1+num2) -- 3  
-
 ### Variables
 
 > greeting = "Hello, world!"  
@@ -64,6 +57,14 @@ Here are some simple programs...; which are all created by me just in order to g
 > print("a".."b")  --ab  
 > print("1".."2")  --12  
 
+## Maths
+
+### Add 2 numbers
+
+> print(1+2) --3  
+
+> num1, num2 = 1,2 -- multiple assignments being done all on one same line    
+> print(num1+num2) -- 3  
 
 ### Maths operators...
 
