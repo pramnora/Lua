@@ -54,6 +54,15 @@ Lua code
 > -- output...  
 > --Length of string: 4  
 
+### String concatenation
+
+> print("a".."b")  
+> print("1".."2")  
+> --output...  
+> --ab  
+> --12  
+
+
 ### Maths operators...
 
 > --variable declaration...  
