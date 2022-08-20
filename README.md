@@ -47,6 +47,13 @@ Lua code
  
 **NOTE**: Escape characters are: "\t" for tab/and, "\n" for new line.     
 
+### Variable length
+
+> name = "Paul"  
+> io.write("Length of string: ",#name,"\n")  
+> -- output...  
+> --Length of string: 4  
+
 ### Maths operators...
 
 > --variable declaration...  
