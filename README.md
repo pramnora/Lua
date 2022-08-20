@@ -86,14 +86,14 @@ Here are some simple programs...; which are all created by me just in order to g
 #### Using functions
 
 > function add(n1,n2) -- function header, with 2 parameter arguments   
->  print(1+2)         -- function calculate sum expression/and, then, print out sum total    
+>  print(1+2)         -- function calculate sum expression/and, then, print out sum total: 3   
 > end                 -- function footer   
 > add(2,3)            -- function call, passing in 2 values to be added up      
 
 > function add(n1,n2) -- function header, with 2 parameter arguments    
 > return(1+2)         -- function calculate sum expression/then, return sum total    
 > end                 -- function footer  
-> print(add(2,3))     -- function call, passing in 2 values to be added up/plus, print statement        
+> print(add(2,3))     -- function call, passing in 2 values to be added up/plus, print sum total which gets returned: 3       
 
 -----
 
