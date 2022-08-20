@@ -15,11 +15,15 @@ Lua code
 
 ### Hello, world!
 
-> print("Hello, world!")  
+> print("Hello, world!")    
+> --output...  
+> Hello, world!  
 
 ### Add 2 numbers
 
-> print(1+2)
+> print(1+2)  
+> --output...  
+> 3  
 
 ### Variables
 
