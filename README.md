@@ -33,8 +33,10 @@ Here are some simple programs...; which are all created by me just in order to g
 
 ### Variables
 
+> -- variable declarations...  
 > greeting = "Hello, world!"  
 > num = 3.14  
+> -- output...  
 > print(greeting)  --Hello, world!  
 > print(num)       --3.14   
 
