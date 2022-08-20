@@ -11,3 +11,10 @@ Reference manual - Lua 5.4
 -http://www.lua.org/manual/5.4/  
 
 
+## Videos
+
+### YouTube
+
+Lua Programming Tutorial | Episode 1 | The basics  
+- https://www.youtube.com/watch?v=4NKMtazVNe8&t=344s   
+
