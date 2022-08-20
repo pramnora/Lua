@@ -31,8 +31,8 @@ Lua code
 ### Variable types
 
 > varName = "Paul"  
-> io.write(varName,"\t",type(varName),"\n")  --Paul string  
 > varName = 3.14  
+> io.write(varName,"\t",type(varName),"\n")  --Paul string  
 > io.write(varName,"\t",type(varName),"\n")  --3.14 number  
  
 **NOTE**: Escape characters are: "\t" for tab/and, "\n" for new line.     
