@@ -14,11 +14,11 @@ Reference manual - Lua 5.4
 
 ### Hello, world!
 
->> print("Hello, world!")  
+> print("Hello, world!")  
 
 ### Add 2 numbers
 
->> print(1+2)
+> print(1+2)
 
 
 ## Videos
