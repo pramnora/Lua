@@ -25,7 +25,7 @@ Here are some simple programs...; where are all created by me just in order to g
 > another multi-line way   
 > to print,  
 > Hello, world!"]])   
-> --code output...  
+> --output...  
 > --This is  
 > --another multi-line way  
 > -- to print,  
