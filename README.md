@@ -18,3 +18,8 @@ Reference manual - Lua 5.4
 Lua Programming Tutorial | Episode 1 | The basics  
 - https://www.youtube.com/watch?v=4NKMtazVNe8&t=344s   
 
+Lua Tutorial - (YouTube Channel: Derek Banas)  
+- https://www.youtube.com/watch?v=iMacxZQMPXs   
+
+
+
