@@ -21,6 +21,16 @@ Here are some simple programs...; where are all created by me just in order to g
 
 > print("Hello, world!") --Hello, world!   
 
+> print([["This is   
+> another way   
+> to print,  
+> Hello, world!"]])  
+> --output...  
+> --This is  
+> --another way  
+> -- to print,  
+> Hello, world!  
+
 ### Add 2 numbers
 
 > print(1+2) --3  
