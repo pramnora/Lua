@@ -30,7 +30,7 @@ Reference manual - Lua 5.4
 > --Hello, world!  
 > --3.14  
 
-**NOTE**: The double hypen...is how you create a single Lua comment.  
+**NOTE**: The double hypen...is how you create a single line comment in Lua.   
 
 ## Videos
 
