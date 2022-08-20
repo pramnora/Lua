@@ -78,6 +78,15 @@ Here are some simple programs...; where are all created by me just in order to g
 
 -----
 
+### functions
+
+> function add(n1,n2) -- function header  
+>  print(1+2)         -- function calculate/and, print  
+> end                 -- function footer  
+> add(2,3)            -- function call, passing in 2 values    
+
+-----
+
 ## Links
 
 Lua main site...  
