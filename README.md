@@ -61,7 +61,11 @@ Here are some simple programs...; which are all created by me just in order to g
 
 ### Add 2 numbers
 
+#### Using numeric literals
+
 > print(1+2) --3  
+
+#### Using numeric variables
 
 > num1, num2 = 1,2 -- multiple assignments being done all on one same line    
 > print(num1+num2) -- 3  
