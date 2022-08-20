@@ -16,6 +16,10 @@ Reference manual - Lua 5.4
 
 >> print("Hello, world!")  
 
+### Add 2 numbers
+
+>> print(1+2)
+
 
 ## Videos
 
