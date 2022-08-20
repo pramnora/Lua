@@ -11,7 +11,7 @@ Here are some simple programs...created just to wet one's appetite; and, so, get
 
 > --this is a single line comment  
 
-> --print("Hello, world!") -- this is an end of line comment/program outputs: Hello, world!  
+> print("Hello, world!") -- this is an end of line comment/program outputs: Hello, world!  
 
 > --[[ this is a  
 >      multi-line   
