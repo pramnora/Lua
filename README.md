@@ -30,7 +30,17 @@ Reference manual - Lua 5.4
 > --Hello, world!  
 > --3.14  
 
-**NOTE**: The double hypen...is how you create a single line comment in Lua.   
+### Variable types
+
+> varName = "Paul"  
+> io.write(varName,"\t",type(varName),"\n")  
+> varName = 3.14  
+> io.write(varName,"\t",type(varName),"\n")  
+> --output  
+> --Paul string  
+> --3.14 number  
+ 
+**NOTE**: Escape characters are: "\t" for tab/and, "\n" for new line.     
 
 ## Videos
 
