@@ -15,52 +15,37 @@ Lua code
 
 ### Hello, world!
 
-> print("Hello, world!")    
-> --output...  
-> Hello, world!  
+> print("Hello, world!") --Hello, world!   
 
 ### Add 2 numbers
 
-> print(1+2)  
-> --output...  
-> 3  
+> print(1+2) --3  
 
 ### Variables
 
 > greeting = "Hello, world!"  
 > num = 3.14  
-> print(greeting)  
-> print(num)  
-> --output...  
-> --Hello, world!  
-> --3.14  
+> print(greeting)  --Hello, world!  
+> print(num)       --3.14   
 
 ### Variable types
 
 > varName = "Paul"  
-> io.write(varName,"\t",type(varName),"\n")  
+> io.write(varName,"\t",type(varName),"\n")  --Paul string  
 > varName = 3.14  
-> io.write(varName,"\t",type(varName),"\n")  
-> --output...    
-> --Paul string  
-> --3.14 number  
+> io.write(varName,"\t",type(varName),"\n")  --3.14 number  
  
 **NOTE**: Escape characters are: "\t" for tab/and, "\n" for new line.     
 
 ### Variable length
 
 > name = "Paul"  
-> io.write("Length of string: ",#name,"\n")  
-> -- output...  
-> --Length of string: 4  
+> io.write("Length of string: ",#name,"\n")  --Length of string: 4  
 
 ### String concatenation
 
-> print("a".."b")  
-> print("1".."2")  
-> --output...  
-> --ab  
-> --12  
+> print("a".."b")  --ab  
+> print("1".."2")  --12  
 
 
 ### Maths operators...
@@ -68,17 +53,11 @@ Lua code
 > --variable declaration...  
 > num = 3  
 > --main program/do output...  
-> print(num+num)  
-> print(num-num)  
-> print(num*num)  
-> print(num/num)  
-> print(num^num)  
-> --output...  
-> --6  
-> --0  
-> --9  
-> --1  
-> --27  
+> print(num+num)  --6  
+> print(num-num)  --0  
+> print(num*num)  --9  
+> print(num/num)  --1  
+> print(num^num)  --27   
 
 -----
 
