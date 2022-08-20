@@ -5,7 +5,7 @@ Lua code
 
 ## Simple programs...
 
-Here are some simple programs...created just to wet one's appetite; and, so, get one 'started' off...going on the long road to fully 'mastering' learning the Lua progrmming language.  
+Here are some simple programs...; where are all created by me just in order to go wet one's appetite when it comes to learning how to do Lua programming.  
 
 ### Comments
 
