@@ -36,7 +36,7 @@ Reference manual - Lua 5.4
 > io.write(varName,"\t",type(varName),"\n")  
 > varName = 3.14  
 > io.write(varName,"\t",type(varName),"\n")  
-> --output  
+> --output...    
 > --Paul string  
 > --3.14 number  
  
