@@ -25,7 +25,7 @@ Here are some simple programs...; where are all created by me just in order to g
 
 > print(1+2) --3  
 
-> num1, num2 = 1,2  
+> num1, num2 = 1,2 -- multiple assignments being done all on one same line    
 > print(num1+num2) -- 3  
 
 ### Variables
