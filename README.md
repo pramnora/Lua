@@ -25,6 +25,9 @@ Here are some simple programs...; where are all created by me just in order to g
 
 > print(1+2) --3  
 
+> num1, num2 = 1,2  
+> print(num1+num2) -- 3  
+
 ### Variables
 
 > greeting = "Hello, world!"  
