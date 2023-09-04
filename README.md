@@ -1,7 +1,7 @@
 # Lua
 Lua code
 
-**Updated**: *Mon 4th Sep 2023 12:45 PM GMT*
+**Page last updated**: *Mon 4th Sep 2023 12:45 PM GMT*
 
 -----
 
