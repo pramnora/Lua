@@ -1,6 +1,8 @@
 # Lua
 Lua code
 
+**Updated**: *Mon 4th Sep 2023 12:45 PM GMT*
+
 -----
 
 ## Simple programs...
@@ -100,9 +102,10 @@ Here are some simple programs...; which are all created by me just in order to g
 ## Links
 
 Lua main site...  
-- http://www.lua.org/  
+- https://www.lua.org/  
 Reference manual - Lua 5.4   
--http://www.lua.org/manual/5.4/  
+-https://www.lua.org/manual/5.4/
+
 
 ### Download Lua...
 
