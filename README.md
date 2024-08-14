@@ -1,7 +1,7 @@
 # Lua
 Lua code
 
-**Page last updated**: *Mon 4th Sep 2023 12:45 PM GMT*
+**Page last updated**: *Wed 14th Aug 2024 22:45 PM GMT*
 
 -----
 
@@ -111,6 +111,15 @@ Reference manual - Lua 5.4
 
 Downloaded Lua programming language for Windows from...  
 - https://github.com/rjpcomputing/luaforwindows/releases  
+
+### Practice using Lua online inside of your web browser...
+
+- https://onecompiler.com
+
+### Tutorials online...
+
+LearnPython.org  
+- https://www.learnpython.org/  
 
 ### Videos: YouTube: Lua Tutorials
 
