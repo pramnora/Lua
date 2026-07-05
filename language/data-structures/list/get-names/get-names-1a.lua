@@ -9,3 +9,11 @@ for i = 1, #names do                          -- #names, counts the number of na
     print("Hello, " ..  names[i] .. "!")      -- names[i], prints the name with index number: i
 
 end
+
+-- print out
+
+-- Hello, Alice
+-- Hello, Bob
+-- Hello, Charlie
+
+
