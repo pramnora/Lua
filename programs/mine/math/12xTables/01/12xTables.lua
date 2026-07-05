@@ -1,11 +1,11 @@
 -- variable declarations
 
-tablesNo=7
+tablesNo = 7
 
---do printout
+-- do printout
 
 for timesNo = 1, 12 do
-    print(timesNo .. " X " .. tablesNo .. " = " .. timesNo*tablesNo)
+    print(timesNo .. " X " .. tablesNo .. " = " .. timesNo * tablesNo)
 end
 
 -- print out
