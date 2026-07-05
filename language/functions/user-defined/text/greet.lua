@@ -6,4 +6,4 @@ end
 
 -- function call
 
-print(greet("world!"))
+print(greet("world!")) -- Hello, world!
