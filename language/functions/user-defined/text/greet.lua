@@ -1,9 +1,9 @@
 -- function declaration
 
 local function greet(name)
-     print("Hello, " .. name)
+     return "Hello, " .. name
 end
 
 -- function call
 
-greet("world!")
+print(greet("world!"))
