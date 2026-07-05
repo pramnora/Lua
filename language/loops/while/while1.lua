@@ -1,6 +1,6 @@
 -- variable declarations
 
-local count=5
+local count = 5
 
 -- man program
 
