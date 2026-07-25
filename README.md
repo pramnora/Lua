@@ -116,6 +116,8 @@ Countdown: 0
 
 #### Generic for  
 
+Looping sequentially through a list array:  
+
 > local colours = {"red", "green", "blue"}      
 > for index,value in ipairs(colours) do    
 >    print(index,value)   
@@ -125,6 +127,19 @@ output:
 1       red  
 2       green  
 3       blue  
+
+Looping through a key/value map(note: order is NOT guaranteed):  
+
+> local user = { name = "pmr", system = "Linux Mint", language = "Lua" }    
+> for key, value in pairs(user) do  
+>    print(key .. " => " .. value)  
+> end  
+
+output: 
+system => Linux Mint  
+name => pmr  
+language => Lua  
+
 
 
 ### Variable length
