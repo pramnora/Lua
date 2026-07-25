@@ -19,6 +19,11 @@ Install lua REPL/Read Eval Print Loop interpreter program:
 
 [CTRL]+[D] to exit  
 
+Show lua version:  
+
+> lua 5.4 -v  
+> Lua 5.4.6 Copyright (C) 1994-2023 Lua.org, PUC-Rio  
+
 Install lua Package Manager (allows for installation of JSON parsers, HTTP clients, or, math tools):   
 
 > sudo apt install luarocks  
