@@ -87,14 +87,14 @@ Here are some simple programs...; which are all created by me just in order to g
 
 > local varName = "Paul"  
 > io.write(varName,"\t",type(varName),"\n")  --Paul string  
-> local varName = 3.14  
+> varName = 3.14  
 > io.write(varName,"\t",type(varName),"\n")  --3.14 number  
  
 **NOTE**: Escape characters are: "\t" for tab/and, "\n" for new line.     
 
 ### Loops
 
-> for i = 1,5 do  
+> for i = 1,3 do  
 >    print(i)  
 > end  
 
@@ -102,8 +102,19 @@ output:
 1  
 2  
 3  
-4  
-5  
+
+> for i = 10,2,-2 do  
+>    print("Countdown: " .. i)  
+> end
+
+output:  
+Countdown: 10    
+Countdown: 8  
+Countdown: 6  
+Countdown: 4  
+Countdown: 2  
+
+
 
 ### Variable length
 
