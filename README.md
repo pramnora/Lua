@@ -5,6 +5,8 @@ Lua code
 
 -----
 
+**NOTE**: Here I'm using Linux Mint 0S 22.3.  
+
 ## Install
 
 Install lua REPL/Read Eval Print Loop interpreter program:   
