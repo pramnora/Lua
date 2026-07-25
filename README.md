@@ -94,6 +94,8 @@ Here are some simple programs...; which are all created by me just in order to g
 
 ### Loops
 
+#### Numeric for  
+
 > for i = 1,3 do  
 >    print(i)  
 > end  
@@ -103,17 +105,26 @@ output:
 2  
 3  
 
-> for i = 10,2,-2 do  
+> for i = 4,0,-2 do  
 >    print("Countdown: " .. i)  
 > end
 
 output:  
-Countdown: 10    
-Countdown: 8  
-Countdown: 6  
-Countdown: 4  
+Countdown: 4    
 Countdown: 2  
+Countdown: 0  
 
+#### Generic for  
+
+> local colours = {"red", "green", "blue"}      
+> for index,value in ipairs(colours) do    
+>    print(index,value)   
+> end   
+
+output:  
+1       red  
+2       green  
+3       blue  
 
 
 ### Variable length
