@@ -1,7 +1,41 @@
 # Lua
 Lua code
 
-**Page last updated**: *Wed 14th Aug 2024 22:45 PM GMT*
+**Page last updated**: *Wed 26th Jul 2026 00:18 AM GMT*
+
+-----
+
+## Install
+
+Install lua REPL/Read Eval Print Loop interpreter program:   
+
+> sudo apt update  
+> sudo apt install lua5.4  
+
+...to run the intepreter program:  
+
+> lua5.4  
+> print("Hello, world!")  
+
+[CTRL]+[D] to exit  
+
+Install lua Package Manager (allows for installation of JSON parsers, HTTP clients, or, math tools):   
+
+> sudo apt install luarocks  
+
+Tip(1):  
+In order to not have to keep on typing:  
+
+> lua5.4 filename.lua  
+
+Solution(1):  
+
+> sudo apt install lua-any  
+
+Solution(2):  
+
+> nano ~/.bashrc  
+alias lua='lua5.4'  
 
 -----
 
