@@ -85,6 +85,19 @@ Here are some simple programs...; which are all created by me just in order to g
  
 **NOTE**: Escape characters are: "\t" for tab/and, "\n" for new line.     
 
+### Loops
+
+> for i = 1,5 do  
+>    print(i)  
+> end  
+
+output:  
+1  
+2  
+3  
+4  
+5  
+
 ### Variable length
 
 > local name = "Paul"  
