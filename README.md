@@ -70,24 +70,24 @@ Here are some simple programs...; which are all created by me just in order to g
 ### Variables
 
 > -- variable declarations...  
-> greeting = "Hello, world!"  
-> num = 3.14  
+> local greeting = "Hello, world!"  
+> local num = 3.14  
 > -- output...  
 > print(greeting)  --Hello, world!  
 > print(num)       --3.14   
 
 ### Variable types/Variable name re-use
 
-> varName = "Paul"  
+> local varName = "Paul"  
 > io.write(varName,"\t",type(varName),"\n")  --Paul string  
-> varName = 3.14  
+> local varName = 3.14  
 > io.write(varName,"\t",type(varName),"\n")  --3.14 number  
  
 **NOTE**: Escape characters are: "\t" for tab/and, "\n" for new line.     
 
 ### Variable length
 
-> name = "Paul"  
+> local name = "Paul"  
 > io.write("Length of string: ",#name,"\n")  --Length of string: 4  
 
 ### String concatenation
@@ -100,7 +100,7 @@ Here are some simple programs...; which are all created by me just in order to g
 ### Maths operators...
 
 > --variable declaration...  
-> num = 3  
+> local num = 3  
 > --main program/do output...  
 > print(num+num)  --6  
 > print(num-num)  --0  
@@ -116,17 +116,17 @@ Here are some simple programs...; which are all created by me just in order to g
 
 #### Using numeric variables
 
-> num1, num2 = 1,2 -- multiple assignments being done all on one same line    
+> local num1, num2 = 1,2 -- multiple assignments being done all on one same line    
 > print(num1+num2) -- 3  
 
 #### Using functions
 
-> function add(n1,n2) -- function header, with 2 parameter arguments   
+> local function add(n1,n2) -- function header, with 2 parameter arguments   
 >  print(1+2)         -- function calculate sum expression/and, then, print out sum total: 3   
 > end                 -- function footer   
 > add(2,3)            -- function call, passing in 2 values to be added up      
 
-> function add(n1,n2) -- function header, with 2 parameter arguments    
+> local function add(n1,n2) -- function header, with 2 parameter arguments    
 > return(1+2)         -- function calculate sum expression/then, return sum total    
 > end                 -- function footer  
 > print(add(2,3))     -- function call, passing in 2 values to be added up/plus, print sum total which gets returned: 3       
