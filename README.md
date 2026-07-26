@@ -229,7 +229,15 @@ output:
 #### Using built-in functions  
 
 > print(math.pi) -- 3.1415926535898  
-> print(string.format("%.2f",math.pi)) -- 3.14   
+> print(string.format("%.2f",math.pi)) -- 3.14
+
+...running the math.pi code from bash...  
+
+> lua5.4 -e 'print(math.pi)'  
+
+output:  
+3.1415926535898  
+
 
 -----
 
