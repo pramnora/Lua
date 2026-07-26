@@ -269,7 +269,27 @@ You have to seed the random numbers, first; by using the system timer clock:
 
 Install lua Package Manager (allows for installation of JSON parsers, HTTP clients, or, math tools):   
 
+-(You may think of it as being similar to: Python Pip/or, NodeJS NPM.)-  
+
 > sudo apt install luarocks  
+
+# 1. Search for a library/package  
+
+> luarocks search <package-name>  
+
+# 2. Install a package locally for your current user account  
+
+> luarocks install --local <package-name>  
+
+# 3. List all installed packages  
+
+> luarocks list  
+
+# 4. Uninstall a package  
+
+> luarocks remove --local <package-name>  
+
+**Pro Tip for Linux Mint**: Always prefer using --local when installing rocks. This installs packages into your home directory (~/.luarocks/) without needing sudo or messing with Linux system permissions.  
 
 
 -----
