@@ -166,8 +166,19 @@ Running step 1
 Running step 2    
 Running step 3   
 
+#### Break out of a loop  
 
+> for i = 1, 10 do  
+>    if i == 4 then  
+>         break -- Stops the loop when i reaches 4  
+>     end  
+>     print(i)  
+> end  
 
+output:   
+1  
+2  
+3  
 
 ### Variable length
 
