@@ -140,6 +140,33 @@ system => Linux Mint
 name => pmr  
 language => Lua  
 
+#### Conditional: While  
+
+> local energy = 3  
+> while energy > 0 do  
+>    print("Energy left: " .. energy)  
+>    energy = energy - 1  
+> end  
+
+output:  
+Energy left: 3  
+Energy left: 2  
+Energy left: 1     
+
+#### Conditional: Repeat/Until  
+
+> local count = 1   
+> repeat  
+>    print("Running step " .. count)   
+>    count = count + 1  
+> until count > 3  
+
+output:   
+Running step 1  
+Running step 2    
+Running step 3   
+
+
 
 
 ### Variable length
