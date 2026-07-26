@@ -238,6 +238,7 @@ output:
 output:  
 3.1415926535898  
 
+**NOTE**: The -e flag means execute...(without needing to open up the Lua intepreter).    
 
 -----
 
