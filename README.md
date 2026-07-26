@@ -231,14 +231,22 @@ output:
 > print(math.pi) -- 3.1415926535898  
 > print(string.format("%.2f",math.pi)) -- 3.14
 
-...running the math.pi code from bash...  
+#### Running Lua code from bash    
 
 > lua5.4 -e 'print(math.pi)'  
 
 output:  
 3.1415926535898  
 
-**NOTE**: The -e flag means execute...(without needing to open up the Lua intepreter).    
+**NOTE**: The -e flag means execute...(without needing to go open up the Lua intepreter).    
+
+# Using semicolons inside one string(chaining commands):   
+  
+> lua5.4 -e 'local x = 10; print(x * 5)'  
+
+# Using multiple -e flags (they run in order):      
+
+> lua5.4 -e 'local x = 10' -e 'print(x * 5)'  
 
 -----
 
