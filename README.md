@@ -58,6 +58,8 @@ Here are some simple programs...; which are all created by me just in order to g
 
 ### Hello, world!
 
+#### String literals
+
 > print("Hello, world!") --Hello, world!   
 
 > print([["This is   
@@ -70,11 +72,12 @@ Here are some simple programs...; which are all created by me just in order to g
 > -- to print,  
 > --Hello, world!  
 
-### String concatenation
+#### String concatenation
 
 > print("a".."b")  --ab  
 > print("1".."2")  --12  
 
+-----
 
 ### Variables
 
@@ -85,7 +88,7 @@ Here are some simple programs...; which are all created by me just in order to g
 > print(greeting)  --Hello, world!  
 > print(num)       --3.14   
 
-### Variable types/Variable name re-use
+#### Variable types/Variable name re-use
 
 > local varName = "Paul"  
 > io.write(varName,"\t",type(varName),"\n")  --Paul string  
@@ -94,7 +97,7 @@ Here are some simple programs...; which are all created by me just in order to g
  
 **NOTE**: Escape characters are: "\t" for tab/and, "\n" for new line.     
 
-### Variable length
+#### Variable length
 
 > local name = "Paul"  
 > io.write("Length of string: ",#name,"\n")  --Length of string: 4  
