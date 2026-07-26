@@ -26,10 +26,6 @@ Show lua version:
 > lua 5.4 -v  
 > Lua 5.4.6 Copyright (C) 1994-2023 Lua.org, PUC-Rio  
 
-Install lua Package Manager (allows for installation of JSON parsers, HTTP clients, or, math tools):   
-
-> sudo apt install luarocks  
-
 Tip(1):  
 In order to not have to keep on typing:  
 
@@ -267,6 +263,13 @@ You have to seed the random numbers, first; by using the system timer clock:
 
 > -- Only needed in older Lua versions:  
 > math.randomseed(os.time())  
+
+
+## Lua package manager  
+
+Install lua Package Manager (allows for installation of JSON parsers, HTTP clients, or, math tools):   
+
+> sudo apt install luarocks  
 
 
 -----
