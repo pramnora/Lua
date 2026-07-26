@@ -240,11 +240,11 @@ output:
 
 **NOTE**: The -e flag means execute...(without needing to go open up the Lua intepreter).    
 
-# Using semicolons inside one string(chaining commands):   
+#### Using semicolons inside one string(chaining commands):   
   
 > lua5.4 -e 'local x = 10; print(x * 5)'  
 
-# Using multiple -e flags (they run in order):      
+#### Using multiple -e flags (they run in order):      
 
 > lua5.4 -e 'local x = 10' -e 'print(x * 5)'  
 
