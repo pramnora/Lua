@@ -226,6 +226,11 @@ output:
 > end                 -- function footer  
 > print(add(2,3))     -- function call, passing in 2 values to be added up/plus, print sum total which gets returned: 3       
 
+#### Using built-in functions  
+
+> print(math.pi) -- 3.1415926535898  
+> print(string.format("%.2f",math.pi)) -- 3.14   
+
 -----
 
 ## Links
