@@ -46,6 +46,8 @@ alias lua='lua5.4'
 
 Here are some simple programs...; which are all created by me just in order to go wet one's appetite when it comes to learning how to do Lua programming.  
 
+-----
+
 ### Comments
 
 > --this is a single line comment  
@@ -55,6 +57,8 @@ Here are some simple programs...; which are all created by me just in order to g
 > --[[ this is a  
 >      multi-line   
 >      comment]]  
+
+-----
 
 ### Hello, world!
 
