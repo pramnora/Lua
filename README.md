@@ -248,6 +248,27 @@ output:
 
 > lua5.4 -e 'local x = 10' -e 'print(x * 5)'  
 
+### Generating Random numbers  
+
+> -- 1. No arguments: Returns a random float between 0.0 and 1.0  
+> local float = math.random()  
+> print(float) -- e.g., 0.428315...  
+
+> -- 2. One argument (max): Returns a random integer from 1 to max  
+> local die_roll = math.random(6)  
+> print(die_roll) -- Integer from 1 to 6 inclusive  
+
+> -- 3. Two arguments (min, max): Returns a random integer from min to max  
+> local temperature = math.random(-5, 30)  
+> print(temperature) -- Integer from -5 to 30 inclusive  
+
+**NOTE**: Lua versions 5.3 and lower...  
+You have to seed the random numbers, first; by using the system timer clock:     
+
+> -- Only needed in older Lua versions:  
+> math.randomseed(os.time())  
+
+
 -----
 
 ## Links
