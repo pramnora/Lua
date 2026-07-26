@@ -304,7 +304,6 @@ Install lua Package Manager (allows for installation of JSON parsers, HTTP clien
 
 **Pro Tip for Linux Mint**: Always prefer using --local when installing rocks. This installs packages into your home directory (~/.luarocks/) without needing sudo or messing with Linux system permissions.  
 
-
 -----
 
 ## Links
@@ -319,6 +318,15 @@ Reference manual - Lua 5.4
 
 Downloaded Lua programming language for Windows from...  
 - https://github.com/rjpcomputing/luaforwindows/releases  
+
+### Luarocks  
+
+Main web site  
+- https://luarocks.org/  
+- https://luarocks.org/modules/luarocks/luarocks  
+Github  
+- https://github.com/luarocks/luarocks    
+- https://luarocks.github.io/luarocks/releases/    
 
 ### Practice using Lua online inside of your web browser...
 
