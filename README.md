@@ -273,19 +273,19 @@ Install lua Package Manager (allows for installation of JSON parsers, HTTP clien
 
 > sudo apt install luarocks  
 
-# 1. Search for a library/package  
+### 1. Search for a library/package  
 
 > luarocks search <package-name>  
 
-# 2. Install a package locally for your current user account  
+### 2. Install a package locally for your current user account  
 
 > luarocks install --local <package-name>  
 
-# 3. List all installed packages  
+### 3. List all installed packages  
 
 > luarocks list  
 
-# 4. Uninstall a package  
+### 4. Uninstall a package  
 
 > luarocks remove --local <package-name>  
 
