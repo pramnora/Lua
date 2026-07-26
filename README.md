@@ -70,6 +70,12 @@ Here are some simple programs...; which are all created by me just in order to g
 > -- to print,  
 > --Hello, world!  
 
+### String concatenation
+
+> print("a".."b")  --ab  
+> print("1".."2")  --12  
+
+
 ### Variables
 
 > -- variable declarations...  
@@ -87,6 +93,13 @@ Here are some simple programs...; which are all created by me just in order to g
 > io.write(varName,"\t",type(varName),"\n")  --3.14 number  
  
 **NOTE**: Escape characters are: "\t" for tab/and, "\n" for new line.     
+
+### Variable length
+
+> local name = "Paul"  
+> io.write("Length of string: ",#name,"\n")  --Length of string: 4  
+
+-----
 
 ### Loops
 
@@ -176,15 +189,7 @@ output:
 2  
 3  
 
-### Variable length
-
-> local name = "Paul"  
-> io.write("Length of string: ",#name,"\n")  --Length of string: 4  
-
-### String concatenation
-
-> print("a".."b")  --ab  
-> print("1".."2")  --12  
+-----
 
 ## Maths
 
@@ -264,6 +269,7 @@ You have to seed the random numbers, first; by using the system timer clock:
 > -- Only needed in older Lua versions:  
 > math.randomseed(os.time())  
 
+-----
 
 ## Lua package manager  
 
